@@ -1,11 +1,12 @@
 ## tastytrade
-Automatically gives dates and premiums to take profits based on average days held. Based off of the ['Should I Stay or Should I Go?'](https://www.tastytrade.com/tt/shows/market-measures/episodes/should-i-stay-or-should-i-go-07-30-2014)
+Automatically gives dates and premiums to take profits based on average days held. Based off of the ['Should I Stay or Should I Go?'](https://www.tastytrade.com/tt/shows/market-measures/episodes/should-i-stay-or-should-i-go-07-30-2014) segment.
 
 ## Motivation
 I got tired of figuring out the dates and percentages manually.
  
 ## Screenshots
-![screenshot]()
+![screenshot](https://github.com/jgrovedev/tastytrade/blob/master/tt.png)
+![screenshot](https://github.com/jgrovedev/tastytrade/blob/master/example1.png)
 
 ## Tech/framework used
 <b>Built with</b>
