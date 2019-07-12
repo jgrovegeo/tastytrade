@@ -2,7 +2,7 @@ from datetime import datetime, timedelta
 from tabulate import tabulate
 
 while True:
-    print('Type width or position command.\n')
+    print('Type width or position command. Type exit to close script.\n')
     command = input('Enter command: ')
 
     width = ['one - .33', 'two - .66', 'three - .99', 'four - 1.32', 'five - 1.65',
@@ -13,6 +13,8 @@ while True:
         print('\nCollect 1/3 width of strikes')
         for i in width:
             print('\n',i)
+        print('\n')
+        continue
 
     # USER ENTERS POSITION INFORMATION AND PRINTS OUT A TABLE             
     elif command == 'position':
@@ -49,5 +51,8 @@ while True:
             f.write('\n' + '\n' + '\n' + '#################################################################')
             
         print('Positon succesfully exported to .txt.')
+        print('\n')
         continue
-        
+
+    elif command == 'exit':
+        break   
